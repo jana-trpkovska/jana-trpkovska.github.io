@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 148, 26, 28;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -91,7 +91,7 @@ body {
 
 .bold{
     font-weight: bold;
-    color: #bd5d38;
+    color: rgb(148,26,28);
 }
 
 .photo{
