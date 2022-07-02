@@ -109,6 +109,27 @@ body {
   font-weight: 300;
 }
 
+#form{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.fill{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4%;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  color: white;
+  background-color: rgb(148,26,28);
+  border: none;
+  cursor: pointer;
+}
+
 hr {
   margin: 1srem 0;
   color: inherit;
@@ -11425,7 +11446,7 @@ p.lead {
 
 section.resume-section {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
